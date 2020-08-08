@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Cousine&display=swap');
+#input_div{
+    display: flex;
+    flex-direction:column
+}
+.input_div_in{
+    width: 10%;
+    height: 10%;
+    margin-bottom: 10px;
+}
+#result_list{
+    margin-top: 75px;
+}
+.result_div{
+
+    font-family: 'Cousine', monospace;
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+    margin-bottom: 15px;
+    margin-left: 2%;
+    height: 100px;
+    background-color: blue;
+    padding: 0.5%;
+    border-radius: 5px;
+}
+.result_img{
+    height: 100%;
+}
+.result_table{
+    height: 100%;
+    width:50%;
+    color: white;
+    margin-right: 20%;
+}
+td{
+    text-align: center;
+}
+.find_but{
+    width: 100%;
+}
